@@ -8,7 +8,7 @@
 . Oil & Gas
 . Health Care
 
-*  Domain Software Perspective, represents the problem space
+* Domain Software Perspective, represents the problem space
 
 . eCommerce
 . Social Media
@@ -36,7 +36,6 @@ image::thumb/architecture_perspective.png[]
 
 .Quick Design View
 image::thumb/design_perspective.png[]
-
 
 == DDD: Strategic Patterns
 
@@ -72,3 +71,16 @@ image::thumb/ubiquituous_language_bc.png[]
 . There's no an exact process to discovery BCs
 . For imaginary travel company we can have Areas/BC such as _Marketing, Product Management, Sales, Support etc_
 
+== Decomposition Patterns
+
+.DeComposition Patterns
+image::thumb/decomposition_patterns.png[]
+
+
+=== Identity and size components
+
+The purpose of this pattern is to identify and catalog the architectural components (logical building blocks) of the application and then properly size the components;
+
+=== Gather Common Domain Components pattern
+
+Is used to identify and collect common domain logic and centralize it into a single component;
